@@ -1,0 +1,31 @@
+Source: testpath
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Section: python
+Priority: optional
+Standards-Version: 4.6.0
+Homepage: https://github.com/jupyter/testpath
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-sphinx,
+               python3-nose
+Vcs-Git: https://salsa.debian.org/python-team/packages/testpath.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/testpath
+
+Package: python3-testpath
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Utilities for Python 3 code working with files and commands
+ It contains functions to check things on the filesystem, and tools for
+ mocking and recording calls to those.
+ .
+ This package installs the library for Python 3.
+
+Package: python-testpath-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: Utilities for Python code working with files and commands (doc)
+ It contains functions to check things on the filesystem, and tools for
+ mocking and recording calls to those.
+ .
+ This package installs the documentation.

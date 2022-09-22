@@ -1,0 +1,126 @@
+testpath (0.5.0+dfsg-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+  * New upstream release 0.5.0.
+  * Update (and rename) the one patch against upstream.
+  * Bump debhelper compat to 13.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 19 Aug 2021 10:54:00 +0200
+
+testpath (0.4.4+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Use Python 3 also in d/rules (Closes: #945214)
+  * Bump std-ver to 4.4.1.
+  * Unbreak running the testsuite.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 09 Dec 2019 07:36:38 +0100
+
+testpath (0.4.2+dfsg-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #938651
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 12 Nov 2019 18:00:54 -0500
+
+testpath (0.4.2+dfsg-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/changelog: Remove trailing whitespaces
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Change license to BSD-3-clause, following upstream.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 08 Oct 2018 08:52:43 +0200
+
+testpath (0.4.1+dfsg-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Use 'python3 -m sphinx' instead of sphinx-build for building docs
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.2.1.
+    - Update dates in d/copyright.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 28 Sep 2018 07:59:46 +0200
+
+testpath (0.3.1+dfsg-3) unstable; urgency=medium
+
+  [Ximin Luo]
+  * Fix typo in build rule.
+
+  [Julien Puydt]
+  * Depend on python3-sphinx to build the doc.
+  * Bump d/watch to version 4.
+  * Bump dh compat to 10.
+  * Bump std-ver to 4.1.1.
+  * Add autopkgtest to run the testsuite.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 07 Nov 2017 17:51:47 +0100
+
+testpath (0.3.1+dfsg-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add an .egg-info file so pip recognises it. (Closes: #880241)
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 07 Nov 2017 14:29:03 +0100
+
+testpath (0.3.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version to 4.0.0.
+  * Mark the -doc package as Multi-Arch: foreign (following hinter).
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 29 Jun 2017 07:42:29 +0200
+
+testpath (0.3+dfsg-2) unstable; urgency=medium
+
+  * Added a patch to change the intersphinx configuration, to avoid
+  network access during package build. (Closes: #830627)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 10 Jul 2016 08:21:27 +0200
+
+testpath (0.3+dfsg-1) unstable; urgency=medium
+
+  [Ondřej Nový]
+  * Fixed VCS URL (https)
+
+  [Julien Puydt]
+  * New upstream release.
+  * Bump standards-version up.
+  * Don't ship windows exe files in source tarball.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 14 May 2016 07:44:33 +0200
+
+testpath (0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #799599)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 27 Sep 2015 11:37:08 +0200

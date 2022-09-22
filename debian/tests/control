@@ -1,0 +1,2 @@
+Tests: runtestsuite
+Depends: @, python3-nose

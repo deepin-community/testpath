@@ -1,0 +1,16 @@
+Description: patch intersphinx configuration to find the local one
+Author: Julien Puydt <jpuydt@debian.org>
+Forwarded: Debian-specific
+
+---
+ doc/conf.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- testpath.orig/doc/conf.py
++++ testpath/doc/conf.py
+@@ -263,4 +263,4 @@
+ 
+ 
+ # configuration for intersphinx: refer to the Python standard library.
+-intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
++intersphinx_mapping = {'python': ('/usr/share/doc/python3-doc/html', None)}

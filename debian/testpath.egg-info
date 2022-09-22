@@ -1,0 +1,9 @@
+Metadata-Version: 1.1
+Name: testpath
+Version: VERSION
+Summary: Test utilities for code working with files and commands
+Home-page: https://github.com/jupyter/testpath
+License: MIT
+Author: Jupyter Development Team
+Description: UNKNOWN
+Platform: UNKNOWN
