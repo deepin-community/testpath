@@ -1,3 +1,24 @@
+testpath (0.6.0+dfsg-3) unstable; urgency=medium
+
+  * Team upload.
+  * Fix empty binary packages (Closes: #1018279)
+
+ -- Gordon Ball <gordon@chronitis.net>  Mon, 29 Aug 2022 20:27:55 +0000
+
+testpath (0.6.0+dfsg-2) unstable; urgency=medium
+
+  * Drop nose dependency.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Aug 2022 12:15:10 +0200
+
+testpath (0.6.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update dates in d/copyright.
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 10 Mar 2022 08:04:19 +0100
+
 testpath (0.5.0+dfsg-1) unstable; urgency=medium
 
   [ Ondřej Nový ]

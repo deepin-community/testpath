@@ -3,11 +3,11 @@ Upstream-Name: testpath
 Files-Excluded: testpath/*.exe
 
 Files: *
-Copyright: 2015-2018 Jupyter Development Team
+Copyright: 2015-2022 Jupyter Development Team
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2015-2018 Julien Puydt <jpuydt@debian.org>
+Copyright: 2015-2022 Julien Puydt <jpuydt@debian.org>
 License: BSD-3-clause
 
 License: BSD-3-clause
