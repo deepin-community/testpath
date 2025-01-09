@@ -1,1 +1,7 @@
-.pc/
+__pycache__
+*.pyc
+/doc/_build
+/MANIFEST
+/build/
+/dist/
+.pytest_cache/
